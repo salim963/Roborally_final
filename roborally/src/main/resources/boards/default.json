@@ -1,0 +1,662 @@
+{
+   "width":8,
+   "height":8,
+   "map":[
+      [
+         {
+            "position":{
+               "x":0,
+               "y":0
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":0,
+               "y":1
+            },
+
+            "actions":[
+
+            ]
+         },
+         {
+            "position":{
+               "x":0,
+               "y":2
+            },
+			"actions":[
+
+            ]
+         },
+         {
+            "position":{
+               "x":0,
+               "y":3
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":0,
+               "y":4
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":0,
+               "y":5
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":0,
+               "y":6
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":0,
+               "y":7
+            },
+            "actions":[
+               
+            ]
+         }
+      ],
+      [
+         {
+            "position":{
+               "x":1,
+               "y":0
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":1,
+               "y":1
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":1,
+               "y":2
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":1,
+               "y":3
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":1,
+               "y":4
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":1,
+               "y":5
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":1,
+               "y":6
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":1,
+               "y":7
+            },
+            "actions":[{"CLASSNAME":"dk.dtu.compute.se.pisd.roborally.model.ConveyorBelt","DATA":{"heading": "EAST"}}
+               
+            ]
+         }
+      ],
+      [
+         {
+            "position":{
+               "x":2,
+               "y":0
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":2,
+               "y":1
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":2,
+               "y":2
+            },
+            "actions":[
+               {
+
+                  "CLASSNAME":"dk.dtu.compute.se.pisd.roborally.model.Gear",
+                  "DATA":{
+                     "imageName": "gearright.png",
+                     "direction": "RIGHT"
+                  }
+               }
+               
+            ]
+         },
+         {
+            "position":{
+               "x":2,
+               "y":3
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":2,
+               "y":4
+            },
+            "walls":[
+               {
+                  "heading":"SOUTH"
+               }
+            ],
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":2,
+               "y":5
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":2,
+               "y":6
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":2,
+               "y":7
+            },
+            "actions":[{"CLASSNAME":"dk.dtu.compute.se.pisd.roborally.model.ConveyorBelt","DATA":{"heading": "EAST"}}
+               
+            ]
+         }
+      ],
+      [
+         {
+            "position":{
+               "x":3,
+               "y":0
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":3,
+               "y":1
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":3,
+               "y":2
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":3,
+               "y":3
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":3,
+               "y":4
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":3,
+               "y":5
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":3,
+               "y":6
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":3,
+               "y":7
+            },
+            "actions":[
+               
+            ]
+         }
+      ],
+      [
+         {
+            "position":{
+               "x":4,
+               "y":0
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":4,
+               "y":1
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":4,
+               "y":2
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":4,
+               "y":3
+            },
+            "walls":[
+               {
+                  "heading":"EAST"
+               }
+               ],
+
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":4,
+               "y":4
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":4,
+               "y":5
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":4,
+               "y":6
+            },
+            "actions":[
+               {
+                  "CLASSNAME":"dk.dtu.compute.se.pisd.roborally.model.CheckPointAction",
+                  "DATA":{
+                     "checkPointNumber":1,
+                     "imageName":"checkpoint1.png"
+                  }
+               }
+            ]
+         }
+               
+
+         ,
+         {
+            "position":{
+               "x":4,
+               "y":7
+            },
+            "actions":[
+               
+            ]
+         }
+      ],
+      [
+         {
+            "position":{
+               "x":5,
+               "y":0
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":5,
+               "y":1
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":5,
+               "y":2
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":5,
+               "y":3
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":5,
+               "y":4
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":5,
+               "y":5
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":5,
+               "y":6
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":5,
+               "y":7
+            },
+            "actions":[
+               
+            ]
+         }
+      ],
+      [
+         {
+            "position":{
+               "x":6,
+               "y":0
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":6,
+               "y":1
+            },
+            "walls":[
+               {
+                  "heading":"EAST"
+
+               }
+
+            ],
+
+            "actions":[
+               {
+                  "CLASSNAME":"dk.dtu.compute.se.pisd.roborally.model.CheckPointAction",
+                  "DATA":{
+                     "checkPointNumber":3,
+                     "imageName":"checkpoint3.png"
+                  }
+               }
+               
+            ]
+         },
+         {
+            "position":{
+               "x":6,
+               "y":2
+            },
+            "actions":[
+               {
+
+               "CLASSNAME":"dk.dtu.compute.se.pisd.roborally.model.Gear",
+               "DATA":{
+                  "imageName": "gearleft.png",
+                  "direction": "LEFT"
+               }
+               }
+               
+            ]
+         },
+         {
+            "position":{
+               "x":6,
+               "y":3
+            },
+            "actions":[{"CLASSNAME":"dk.dtu.compute.se.pisd.roborally.model.ConveyorBelt","DATA":{"heading": "NORTH"}}
+               
+            ]
+         },
+         {
+            "position":{
+               "x":6,
+               "y":4
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":6,
+               "y":5
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":6,
+               "y":6
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":6,
+               "y":7
+            },
+            "actions":[
+               
+            ]
+         }
+      ],
+      [
+         {
+            "position":{
+               "x":7,
+               "y":0
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":7,
+               "y":1
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":7,
+               "y":2
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":7,
+               "y":3
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":7,
+               "y":4
+            },
+            "walls":[
+               {
+                  "heading":"SOUTH"
+               }
+            ],
+            "actions":[
+               {
+                  "CLASSNAME":"dk.dtu.compute.se.pisd.roborally.model.CheckPointAction",
+                  "DATA":{
+                     "checkPointNumber":2,
+                     "imageName":"checkpoint2.png"
+                  }
+               }
+               
+            ]
+         },
+         {
+            "position":{
+               "x":7,
+               "y":5
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":7,
+               "y":6
+            },
+            "actions":[
+               
+            ]
+         },
+         {
+            "position":{
+               "x":7,
+               "y":7
+            },
+            "actions":[
+               
+            ]
+         }
+      ]
+   ]
+}
